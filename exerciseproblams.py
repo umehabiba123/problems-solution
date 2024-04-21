@@ -1,5 +1,6 @@
-# convert tempratture in fahrenheit
-celsius=input("Enter temprature to in celsius ")
+# convert temprature in fahrenheit
+celsius=input("Enter temprature in celsius ")
+
 celsius=int(celsius)
 fahrenheit=celsius*(9/5)+32
 print("Temprature in fahrenheit is ",fahrenheit)
@@ -21,9 +22,9 @@ print(a*x ,'\n')
 if(fahrenheit>90):
     print('it\'s too hot')
 elif(fahrenheit>70):
-    print("its cool ..")
+    print("it\'s cool ..")
 else:
-    print("its just fine")
+    print("it\'s just fine")
 
 # guess number program
 number=10
@@ -35,6 +36,9 @@ elif(guess<number):
     print('No, Try a little higher')
 else:
     print('No, Try a little lower')
+
+
+    
 
 
 
